@@ -1,0 +1,17 @@
+{
+  "name": "github-workflow-generator",
+  "version": "1.0.0",
+  "description": "Generate github workflows from jobs and steps templates",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gwg": "./src/cli.js"
+  },
+  "author": "Agustin Carrasco <agustin@yerbo.co>",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "ramda": "^0.27.1"
+  }
+}
