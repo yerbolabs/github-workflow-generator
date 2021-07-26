@@ -1,6 +1,6 @@
 {
   "name": "@yerbolabs/github-workflow-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate github workflows from jobs and steps templates",
   "bin": {
     "gwg": "./src/cli.js",
