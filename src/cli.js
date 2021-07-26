@@ -25,4 +25,4 @@ const run = (workflowName)  => {
   fs.writeFileSync(outputPath, workflowYaml);
 }
 
-run(process.argv[2])
+process.argv.slice(2).forEach(run);
